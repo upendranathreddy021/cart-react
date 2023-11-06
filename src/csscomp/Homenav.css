@@ -1,0 +1,14 @@
+.homenav button{
+    width: 14vh;
+    height: 4vh;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: monospace;
+    border: black 2px solid;
+    border-radius: 9vh;
+    background-color: goldenrod;
+}
+.homenav button:hover{
+color: white;
+background-color: rgb(4, 5, 20);
+}

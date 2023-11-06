@@ -1,0 +1,21 @@
+
+.imgdiv{
+    width: 100%;
+    height: 63vh;
+    position: relative;
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+.fa-rotate-180{
+    position: absolute;
+    top:60%;
+    left: 5%;
+
+}
+.fa-beat{
+    position: absolute;
+    top:60%;
+    right: 5%;
+}

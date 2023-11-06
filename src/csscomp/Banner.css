@@ -1,0 +1,15 @@
+.banner{
+    width: 100%;
+    height: 80vh;
+    
+}
+.ban1{
+    width: 100%;
+    height: 25%;
+}
+.ban2{
+    width: 96%;
+    margin-left: 4vh;
+    height: 75%;
+    background-color: paleturquoise;
+}

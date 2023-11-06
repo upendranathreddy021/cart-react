@@ -1,0 +1,74 @@
+
+.navbar{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 10vh;
+position: fixed;
+top: 2vh;
+left:0vh;
+z-index: 11;
+box-shadow: 0px 0px 3px 2px rgb(24, 49, 54);
+
+}
+.logo{
+    width: 15vh;
+    color: white;
+    height: 100%;
+   text-align: center;
+    
+}
+.logo img{
+    width: 120%;height: 120%;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 22px;
+    color:floralwhite;
+}
+.navbar a:hover{
+color:khaki;
+transition: 3s ease-in;
+}
+.navbar .search{
+width: 40vh;
+height: 9vh;
+background-color: transparent;
+
+}
+
+.navbar input{
+    outline: none;
+    margin-top: 3vh;
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-bottom: 3px solid aqua;
+    border-radius:0.4vh;
+    background-color: transparent;
+}
+.navbar input:hover{
+    transition: 3s ease-in-out;
+    background-color: rgb(169, 213, 224);
+}
+.navbar .contact{
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.navbar .contact:hover{
+    color: rgb(171, 221, 159);
+    transition: 2s ease-in;
+}
+
+@media screen and (max-width:610px)
+{
+    .navbar{
+        display: block;
+    }
+}
